@@ -1,0 +1,5 @@
+uniaxialMaterial('Steel02', 1, 4.0e5, 2.0e8, 0.001, 10, 0.925, 0.15)
+uniaxialMaterial('ENT', 2, 1.01e6)
+uniaxialMaterial('Elastic', 3, 1e7)
+uniaxialMaterial('ElasticPP', 4, 1.95e8, .01, -.01, 0)
+uniaxialMaterial('InitStressMaterial', 5, 4, ini_ss)
